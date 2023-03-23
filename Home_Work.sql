@@ -42,3 +42,5 @@ MAX(AGE) as Масимальный_возраст
 FROM employee
 GROUP BY Имя
 HAVING COUNT(first_name)>1;
+
+SELECT * FROM employee;
